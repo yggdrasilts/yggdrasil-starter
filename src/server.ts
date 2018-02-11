@@ -15,7 +15,6 @@ export class YggdrasilServer extends Bootstrap {
 	/** Default constructor */
 	constructor() {
 		super();
-
 		this.logger = new FileLogger(YggdrasilServer.name);
 	}
 
