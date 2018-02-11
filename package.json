@@ -8,10 +8,9 @@
 		"clean": "gulp clean",
 		"clean:all": "gulp clean:all",
 		"compile": "gulp build",
-		"start": "yarn tslint && gulp start",
-		"test": "yarn tslint:test && gulp compile:test && nyc --require ts-node/register mocha --exit --recursive \"src/**/*.spec.ts\"",
-		"tslint": "tslint -p tsconfig.json -t verbose",
-		"tslint:test": "tslint -p tsconfig.spec.json -t verbose"
+		"compile:test": "gulp build:test",
+		"start": "gulp start",
+		"test": "gulp compile:test && nyc --require ts-node/register mocha --exit --recursive \"src/**/*.spec.ts\""
 	},
 	"dependencies": {
 		"@yggdrasil/core": "canary",
