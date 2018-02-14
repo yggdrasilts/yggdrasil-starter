@@ -8,3 +8,6 @@ coverage
 # Lock files
 yarn.lock
 package-lock.json
+
+# Log files
+*.log

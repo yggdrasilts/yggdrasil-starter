@@ -2,7 +2,7 @@
 import {
 	Bootstrap,
 	FileLogger
-} from '@yggdrasil/core';
+} from '@yggdrasilts/core';
 
 /**
  * @class YggdrasilServer

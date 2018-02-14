@@ -1,5 +1,5 @@
 /** yggdrasil imports */
-import { Server } from '@yggdrasil/mvc';
+import { Server } from '@yggdrasilts/mvc';
 
 /** Application imports */
 import { YggdrasilServer } from './server';
