@@ -1,7 +1,7 @@
 /** yggdrasil imports */
 import {
 	Bootstrap,
-	FileLogger
+	YGLogger
 } from '@yggdrasilts/core';
 
 /**
@@ -10,12 +10,12 @@ import {
 export class YggdrasilServer extends Bootstrap {
 
 	/** YggdrasilServer logger */
-	public logger: FileLogger;
+	public logger: YGLogger;
 
 	/** Default constructor */
 	constructor() {
 		super();
-		this.logger = new FileLogger(YggdrasilServer.name);
+		this.logger = new YGLogger(YggdrasilServer.name);
 	}
 
 }
